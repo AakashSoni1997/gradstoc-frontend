@@ -1,0 +1,95 @@
+.upgrade-now-order-con {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  border-radius: 4px;
+
+  &__annual-plan-con {
+    margin: 20px;
+
+    &__text-con {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #404145;
+      }
+
+      &__price {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #404145;
+      }
+    }
+
+    &__plan-list {
+      margin-top: 13px;
+      margin-bottom: 20px;
+    }
+
+    &__total-con {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #404145;
+      }
+
+      &__price {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #404145;
+      }
+    }
+  }
+
+  &__cards-details {
+    margin: 25px 20px 40px 20px;
+
+    &__btn-con {
+      margin-top: 30px;
+
+      &__btn {
+        padding: 15px 265px;
+        background: #37a000;
+        border-radius: 6px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #ffffff;
+        border: 1px solid #37a000;
+
+        &:hover {
+          color: #37a000;
+          background-color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.link-color {
+  color: #37a000;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.link-color:hover {
+  color: #37a000;
+}

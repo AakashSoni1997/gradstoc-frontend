@@ -1,0 +1,78 @@
+.des-group.form-control {
+  height: 100%;
+}
+
+.des-group.form-control:focus {
+  background: #e4e9ee;
+}
+
+.jobdetails-cancel-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 44px;
+  margin-right: 10px;
+  color: #37a000;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.jobdetails-cancel-btn:hover {
+  background-color: #37a000;
+  color: white;
+}
+
+.jobdetails-continue-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 44px;
+  color: white;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  background-color: #37a000;
+}
+
+.jobdetails-continue-btn:hover {
+  background-color: white;
+  color: #37a000;
+}
+
+.current-active {
+  color: #37a000;
+}
+
+.top-part {
+  margin-top: 25px;
+}
+
+.job-details-requred-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #404145;
+  margin-left: 10px;
+}
+
+.job-details-requred-lable {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.desctiption-form-tags {
+  margin-top: 25px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #ace28f;
+  border-color: 1px #37a000;
+  border: 1px solid white;
+  outline: none !important;
+}

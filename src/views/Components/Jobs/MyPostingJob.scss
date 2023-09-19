@@ -1,0 +1,109 @@
+.my-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1rem solid #d6d6d6;
+  padding: 1rem 2rem;
+}
+
+.Mypost-head {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.mypost-qus-head {
+  margin: 20px 10px 15px 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.mypost-qus-timer {
+  margin: 20px 10px 15px 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.mypost-qus-text {
+  margin: 0px 20px 15px 5px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3d5033;
+}
+
+.myjob-post-badge {
+  margin-bottom: 20px;
+}
+
+.myjob-post-tag {
+  padding: 3px 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  color: #37a000;
+  background: #ffffff !important;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.myjob-drop-down {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.myjob_option {
+  text-align: right;
+  width: 100%;
+}
+
+.mypost-other-details {
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
+.mypost_value {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #404145;
+}
+
+.mypost_bid {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: right;
+  color: #404145;
+  margin-top: 16px;
+}
+
+.dropdown-toggle {
+  border: none;
+}
+
+.dropdown-toggle:after {
+  content: none;
+}
+
+.my-custom-post {
+  margin: 20px 5px 1px 1px;
+}
+
+.drop-down-option-myposting-job {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #696b71;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}

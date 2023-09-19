@@ -1,0 +1,93 @@
+.review-cancel-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 44px;
+  margin-right: 10px;
+  color: #37a000;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.review-cancel-btn:hover {
+  background-color: #37a000;
+  color: white;
+}
+
+.review-continue-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 44px;
+  color: white;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  background-color: #37a000;
+}
+
+.review-continue-btn:hover {
+  background-color: white;
+  color: #37a000;
+}
+
+.current-active {
+  color: #37a000;
+}
+
+.modal-content {
+  width: 634px;
+  height: 457px;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.model-header-content-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__img-con {
+    cursor: pointer;
+    padding: 20px;
+  }
+
+  &__head {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #404145;
+    padding-left: 10px;
+  }
+}
+
+.modal-img-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+
+  &__img {
+    width: 130px;
+  }
+}
+
+.bid-model-content-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #404145;
+  margin-top: 20px;
+}
+
+.bid-modal-btn-con {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

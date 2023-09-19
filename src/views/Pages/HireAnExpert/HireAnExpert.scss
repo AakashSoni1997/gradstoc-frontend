@@ -1,0 +1,123 @@
+.hire-an-expert-filter-option-con {
+  margin-bottom: 25px;
+}
+
+.hire-an-expert-filter-option-head {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hire-an-expert-user-detail-con {
+  margin: 20px 0px;
+
+  &__user-profile-con {
+    display: flex;
+    justify-content: flex-start;
+
+    &__img-con {
+      width: 76px;
+      margin-right: 10px;
+
+      &__img {
+        width: 100%;
+      }
+    }
+
+    &__text-con {
+      &__head {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #404145;
+      }
+
+      &__expert {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #404145;
+        margin-top: 5px;
+      }
+
+      &__city {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #828282;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  &__user-available-btn-con {
+    &__btn {
+      padding: 3px 11px;
+      background: #ffffff;
+      border: 1px solid #37a000;
+      border-radius: 4px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 160%;
+      color: #37a000;
+    }
+  }
+}
+
+.hire-an-expert-user-detail-con-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hire-an-expert-user-other-detail-con {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 88px;
+
+  &__earned {
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #404145;
+  }
+
+  &__job-sucess {
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #404145;
+  }
+
+  &__rating {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #404145;
+  }
+}
+
+.hire-an-expert-user-text-detail-con {
+  margin-left: 88px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3d5033;
+}
+
+.hire-an-expert-allquestion-tags {
+  margin-left: 88px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,140 @@
+.col-md-11 {
+  padding: 0px;
+}
+
+.col-md-1 {
+  padding: 0px;
+}
+
+.hr-study-resource {
+  margin: 0px 18px;
+}
+
+.compeleted-job-text-con {
+  padding: 2rem;
+}
+
+.completed-job-reviews-con {
+  border-left: 1px solid #d1d1d1;
+  border-top: 0.0001px solid #d1d1d1;
+}
+
+.completed-job-reviews-inner-con {
+  margin: 16px 20px 15px 20px;
+}
+
+.completed-job-reviews-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.completed-job-rating-con {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.completed_book_rating {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.completed-rate {
+  float: left;
+}
+
+.completed-rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.completed-rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #dddddd;
+  color: #37a000;
+}
+
+.completed-rate:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.completed-rate > input:checked ~ label {
+  color: #37a000;
+}
+
+.completed-rate:not(:checked) > label:hover,
+.completed-rate:not(:checked) > label:hover ~ label {
+  color: #37a000;
+}
+
+.completed-rate > input:checked + label:hover,
+.completed-rate > input:checked + label:hover ~ label,
+.completed-rate > input:checked ~ label:hover,
+.completed-rate > input:checked ~ label:hover ~ label,
+.completed-rate > label:hover ~ input:checked ~ label {
+  color: #37a000;
+}
+
+.completes-job-date-con {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #404145;
+  margin-left: 20px;
+}
+
+.profile-mypost-qus-head {
+  margin-bottom: 7px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.completed-job-price-budget-con {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.completed-job-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+  width: 50%;
+}
+
+.completed-job-budget {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.profile-my-custom-post {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+
+  &__img {
+    cursor: pointer;
+  }
+}
+
+hr {
+  margin: 0px;
+}

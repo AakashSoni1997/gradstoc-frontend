@@ -1,0 +1,126 @@
+.section_login {
+  background-color: #fff;
+}
+
+.index1 {
+  z-index: 1;
+}
+
+.login_form {
+  box-sizing: border-box;
+  width: 546px;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  box-shadow: 5px 4px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  padding: 3rem;
+  position: relative;
+
+  .login_header {
+    .login_title {
+      font-weight: 700;
+      font-size: 3.6rem;
+      line-height: 4.3rem;
+    }
+
+    .login_subtitle {
+      font-weight: 400;
+      font-size: 1.8rem;
+      margin-top: 1rem;
+      color: #6e6e6e;
+    }
+  }
+
+  .login_field {
+    .login_form_field {
+      .remind_password {
+        display: flex;
+        min-height: 1.5rem;
+        margin-top: 15px;
+        padding-left: 0rem;
+        justify-content: space-between;
+      }
+
+      .auth_green_btn {
+        background: #37a000 !important;
+        border-radius: 4px !important;
+        border-color: #37a000 !important;
+        height: 4rem !important;
+        font-size: 1.4rem !important;
+        color: #fff;
+      }
+
+      .remind_password {
+        .forgot_password {
+          color: #00346f;
+          font-size: 1.4rem;
+          border: none;
+          background: transparent;
+        }
+      }
+    }
+  }
+}
+
+.section_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.section_login {
+  &::before {
+    content: url(../../../../Assets/images/green_vector.svg);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+  }
+}
+
+.section_login {
+  &::after {
+    content: url(../../../../Assets/images/blue_vector.svg);
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.item {
+  width: 65%;
+  text-align: left;
+  margin: auto;
+  color: #fff;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  color: #404145;
+  font-weight: 600;
+}
+
+.form-control {
+  display: block;
+  height: 5rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #f9f9f9;
+  background-clip: padding-box;
+  border: 1px solid #f9f9f9;
+  appearance: none;
+  border-radius: 0.6rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-group-text {
+  background-color: #f9f9f9;
+}

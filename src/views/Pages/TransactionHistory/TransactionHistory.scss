@@ -1,0 +1,133 @@
+.dispute-main-con {
+  &__head-con {
+    &__head {
+      &__balance {
+        margin-top: 10px;
+        margin-left: 2px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #717171;
+      }
+    }
+  }
+
+  &__seach-con {
+    display: flex;
+
+    &__text {
+      margin: 11px 10px 0px 0px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #404145;
+    }
+  }
+}
+
+.transaction-history-input {
+  height: 40px;
+}
+
+.a-tag-color {
+  color: #404145;
+}
+
+.a-tag-color:hover {
+  color: #404145;
+}
+
+.a-tag-rg-id {
+  color: #37a000;
+}
+
+.a-tag-rg-id:hover {
+  color: #37a000;
+}
+
+.transaction-history-details-con .modal-content {
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.transaction-history-details-con--model {
+  margin: 40px 20px 45px 20px;
+
+  &__head-con {
+    display: flex;
+    justify-content: space-between;
+
+    &__img-con {
+      cursor: pointer;
+    }
+
+    &__head {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: #404145;
+    }
+  }
+
+  &__details-con {
+    padding-top: 15px;
+
+    &__text-con {
+      margin-top: 15px;
+      display: flex;
+      justify-content: flex-start;
+
+      &__head {
+        width: 50%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: #404145;
+      }
+
+      &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #404145;
+      }
+    }
+  }
+}
+
+.table-body-cursor {
+  cursor: pointer;
+}
+
+.date-picker-class-width {
+  width: 315px;
+  height: 40px;
+}
+
+.date-picker-div {
+  position: relative;
+}
+
+.date-picker-div .rs-picker-default .rs-picker-toggle.rs-btn {
+  height: 40px;
+}
+
+.date-picker-div .rs-stack-item .rs-icon {
+  display: none;
+}
+
+.date-calender-icon {
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  z-index: 999;
+}
+
+.hr-date-picker {
+  margin: 0px;
+}

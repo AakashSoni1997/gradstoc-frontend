@@ -1,0 +1,26 @@
+.common-scss-class {
+  height: 50px;
+  padding: 10px 20px;
+}
+
+.select-list-sec {
+  margin-top: 25px;
+
+  &__label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #404145;
+    margin-bottom: 11px;
+
+    &__spanText {
+      font-weight: normal;
+      color: #bdbdbd;
+      font-size: 13px;
+      font-style: normal;
+      line-height: 150%;
+      margin-left: 10px;
+    }
+  }
+}

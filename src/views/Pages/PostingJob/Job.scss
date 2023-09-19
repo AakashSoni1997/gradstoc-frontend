@@ -1,0 +1,496 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.left-side-menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.left-side-menu ul li {
+  padding-bottom: 20px;
+}
+
+.left-side-menu ul li a {
+  color: #bdbdbd;
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.left-side-menu ul li.current a {
+  color: #404145;
+  font-weight: 600;
+}
+
+.left-side-menu {
+  border-radius: 6px;
+  padding: 20px 20px;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  height: 100%;
+  background: #ffffff;
+}
+
+.top-part h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.right-part {
+  border: 1px solid #e4e4e4;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  background: #ffffff;
+  border-radius: 6px;
+  height: 651px;
+  position: relative;
+}
+
+.top-part h1,
+.innr-bottm {
+  padding: 20px 20px;
+}
+
+.innr-bottm h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.box {
+  border-radius: 5px;
+  width: 280px;
+  border: 1px solid #e4e4e4;
+  margin-right: 20px;
+  justify-content: center;
+  text-align: center;
+  padding: 19px;
+  position: relative;
+  cursor: pointer;
+}
+
+.box .heading {
+  padding: 15px 0px 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #404145;
+}
+
+.box p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #747474;
+}
+
+.bottom-part {
+  &__cancel_btn{
+    margin-top: 4rem;
+  }
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin-top: 5px;
+}
+
+button.btn.btn-primary {
+  width: 133px;
+  height: 40px;
+  background: #f9f9f9 !important;
+  border: 0 !important;
+  color: #404145;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.checked {
+  text-align: right;
+}
+
+.bottom-part .btn-primary:nth-child(1) {
+  background: inherit !important;
+  border: 1px solid #37a000 !important;
+  color: #37a000;
+  margin-right: 10px;
+}
+
+.bottom-part button.btn.btn-primary:hover {
+  color: #37a000 !important;
+}
+
+section.layout {
+  margin: 50px 0px;
+}
+
+img.change-color {
+  filter: invert(1);
+}
+
+.left-side-menu img {
+  margin-right: 10px;
+}
+
+// / part1 //////
+
+.part-1 .innr-bottm .box:nth-child(1) {
+  border-color: #37a000;
+  box-shadow: 0 0.5rem 1rem rgb(140 215 64 / 15%) !important;
+}
+
+.part-1 .bottom-part button.btn.btn-primary:nth-child(2) {
+  background: #37a000 !important;
+  color: #fff;
+}
+
+// label.form-label {
+//     font-weight: 600;
+//     font-size: 16px;
+//     color: #404145;
+// }
+
+.label-part span {
+  font-weight: normal;
+  color: #bdbdbd;
+  font-size: 13px;
+}
+
+.label-part textarea.form-control {
+  //min-height: calc(1.5em + 0.75rem + 2px);
+  background-color: inherit;
+  border-radius: 0.6rem;
+  border: 1px solid #e4e4e4;
+  height: auto !important;
+}
+
+.label-part textarea.form-control :focus {
+  box-shadow: 0 1px 1px #37a000 inset 0 0 8px #37a000;
+  border-color: 1px #37a000;
+  border: 1px solid #37a000;
+  outline: none !important;
+  background-color: #e4e9ee !important;
+}
+
+.label-part .form-control {
+  font-size: 1.5rem;
+  border-color: #e4e4e4;
+  height: 50px;
+}
+
+.tags .primary {
+  background: red;
+}
+
+.tags button.btn.btn-primary {
+  background: #37a000 !important;
+  color: #fff;
+  width: 116px;
+  height: 28px;
+}
+
+.btn-part {
+  position: absolute;
+  /* top: 0; */
+  left: 35px;
+  margin-top: -40px;
+}
+
+.right-part.part-2 {
+  height: 100%;
+}
+
+.right-part.part-2 .bottom-part {
+  position: relative;
+  bottom: 20px;
+  text-align: right;
+  right: 20px;
+}
+
+button.btn.btn-primary.fill {
+  color: #fff;
+  background: #37a000 !important;
+}
+
+.picture-file {
+  padding: 20px;
+  color: #009984;
+  display: flex;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px dashed;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dropdrage-pic {
+  margin-top: 120px;
+}
+
+.drag_n_drop-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #828282;
+  margin-top: 20px;
+}
+
+.pdf-all-progess-con {
+  margin: 20px 20px 40px 10px;
+}
+
+.pdf-head-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+  margin-bottom: 13px;
+}
+
+.uploadfile-progess {
+  border: 1px solid #37a000;
+  box-shadow: 0px 0px 20px rgba(55, 160, 0, 0.13);
+  border-radius: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 18px;
+}
+
+.pdf-icon {
+  margin: 21px 1px 44px 20px;
+}
+
+.progess-text-con {
+  width: 100%;
+  margin: 14px 20px 10px 1px;
+}
+
+.name-cross-icon-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.pdf-file-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #404145;
+  margin: 0px;
+}
+
+.pdf-file-cross {
+  margin: 1px 19px 1px 1px;
+  cursor: pointer;
+}
+
+.pdf-file-size {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #828282;
+  margin: 0px;
+}
+
+.pdf-progress-bar-con {
+  display: flex;
+  align-items: center;
+}
+
+.pdf-progress-bar {
+  width: 80%;
+  background-color: #ebf7df;
+  height: 7px;
+  border-radius: 4px;
+}
+
+.pdf-progress-percent {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #37a000;
+  margin-left: 30px;
+}
+
+.review-get-started {
+  margin: 25px 25px 21px 17px;
+}
+
+.review-get-started-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.review-get-started-ques {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.review-get-started-ans {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #828282;
+}
+
+.review-job-details-con {
+  margin: 25px 50px 20px 18px;
+}
+
+.review-job-details-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.review-job-details-doc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #404145;
+}
+
+.review-job-details-doc-gap {
+  margin-top: 25px;
+}
+
+.review-attachment-con {
+  margin: 25px 30px 30px 18px;
+}
+
+.review-attachment-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.review-attachment-pdf-content {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  padding: 20px 30px 20px 20px;
+  gap: 10px;
+}
+
+.review-attachment-pdf-content-con {
+  width: 100%;
+}
+
+.review-attachment-pdf-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #404145;
+  margin: 0px;
+}
+
+.review-attachment-pdf-size {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #828282;
+}
+
+.review-attachment-progress-bar {
+  width: 100%;
+  height: 7px;
+  background-color: #37a000;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+.jobdetails-cancel-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 44px;
+  margin-right: 10px;
+  color: #37a000;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.jobdetails-cancel-btn:hover {
+  background-color: #37a000;
+  color: white;
+}
+
+.jobdetails-continue-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 44px;
+  color: white;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  background-color: #37a000;
+}
+
+.jobdetails-continue-btn:hover {
+  background-color: white;
+  color: #37a000;
+}
+
+
+
+
+// vishnu css
+
+.jobdetails-cancel-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 44px;
+  margin-right: 10px;
+  color: #37a000;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.jobdetails-cancel-btn:hover {
+  background-color: #37a000;
+  color: white;
+}
+
+.jobdetails-continue-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 44px;
+  color: white;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  background-color: #37a000;
+}
+
+.jobdetails-continue-btn:hover {
+  background-color: white;
+  color: #37a000;
+}

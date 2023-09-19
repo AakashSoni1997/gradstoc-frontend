@@ -1,0 +1,54 @@
+.getting-continue-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  background: #37a000;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  padding: 9px 37px;
+}
+
+.getting-continue-btn:hover {
+  color: #37a000;
+  background: #ffffff;
+}
+
+.getting-cancel-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #37a000;
+  background: #ffffff;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  padding: 9px 37px;
+  margin-right: 10px;
+}
+
+.getting-cancel-btn:hover {
+  color: #ffffff;
+  background: #37a000;
+}
+
+.getting-continue-btn-disable {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: black;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 9px 37px;
+  border: 1px solid #ffffff;
+}
+
+.checked-img {
+  height: 19px;
+}
+
+.box-border {
+  border: 2px solid #37a000;
+}

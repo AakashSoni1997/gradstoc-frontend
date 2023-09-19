@@ -1,0 +1,590 @@
+.browsejobbid-con {
+  border: 1px solid #e4e4e4;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  background: #ffffff;
+}
+
+.browsejobbid-head-con {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.browsejobbid-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.browsejobbid-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: right;
+  color: #404145;
+}
+
+.browsejobbid-price-currency {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: right;
+  color: #404145;
+}
+
+::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #797b81;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.browsejobbid-bid {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: right;
+  color: #404145;
+}
+
+.browsejobbid-buyer-con {
+  margin: 20px 135px 20px 20px;
+}
+
+.browsejobbid-buyer-subject {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.browsejobbid-buyer-subject-color {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #37a000;
+}
+
+.browsejobbid-buyer-text {
+  margin-top: 13px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3d5033;
+}
+
+.browsejobbid-buyer-tage {
+  margin-top: 15px;
+}
+
+.tag {
+  padding: 3px 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  color: #37a000;
+  background: #ffffff !important;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.browsejobbid-about-buyer-con {
+  margin: 30px 1px 20px 20px;
+}
+
+.browsejobbid-about-buyer-rate {
+  float: left;
+}
+
+.browsejobbid-about-buyer-rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.browsejobbid-about-buyer-rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #dddddd;
+  color: #37a000;
+}
+
+.browsejobbid-about-buyer-rate:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.browsejobbid-about-buyer-rate > input:checked ~ label {
+  color: #37a000;
+}
+
+.browsejobbid-about-buyer-rate:not(:checked) > label:hover,
+.browsejobbid-about-buyer-rate:not(:checked) > label:hover ~ label {
+  color: #37a000;
+}
+
+.browsejobbid-about-buyer-rate > input:checked + label:hover,
+.browsejobbid-about-buyer-rate > input:checked + label:hover ~ label,
+.browsejobbid-about-buyer-rate > input:checked ~ label:hover,
+.browsejobbid-about-buyer-rate > input:checked ~ label:hover ~ label,
+.browsejobbid-about-buyer-rate > label:hover ~ input:checked ~ label {
+  color: #37a000;
+}
+
+.rate_value {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3d5033;
+}
+
+.browsejobbid-about-buyer-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.browsejobbid-about-buyer-profile-pic {
+  margin-top: 9px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.browsejobbid-about-buyer-profile-pic-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #333333;
+}
+
+.browsejobbid-about-buyer-profile-pic-country {
+  margin-top: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.browsejobbid-about-buyer-rating-con {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.browsejobbid-about-buyer-membership-con {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #333333;
+}
+
+.browsejobbid-about-buyer-job-id {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.row-container {
+  margin-top: 20px;
+}
+
+.browsejobbid-work-offer-con {
+  margin: 20px;
+}
+
+.browsejobbid-work-offer-head-con {
+  margin-bottom: 12px;
+}
+
+.browsejobbid-work-offer-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.browsejobbid-work-offer-details-con {
+  margin-top: 55px;
+}
+
+.browsejobbid-work-offer-details-des-con {
+  margin-top: 30px;
+}
+
+.browsejobbid-work-offer-details-bid-con.form-control {
+  height: 50px;
+}
+
+.browsejobbid-work-offer-details-btn-con {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.browsejobbid-work-offer-details-btn {
+  padding: 9px 20px;
+  background: #37a000;
+  border-radius: 4px;
+  border: 1px solid #37a000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.browsejobbid-work-offer-details-btn:hover {
+  background: #ffffff;
+  color: #37a000;
+}
+
+.outer-container {
+  margin-top: 20px;
+}
+
+.outer-container-all-bid {
+  margin: 20px 20px 24px 20px;
+}
+
+.all-bit-head-con {
+  margin-bottom: 15px;
+}
+
+.all-bit-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.all-bit-person-detail-con {
+  margin-top: 20px;
+}
+
+.all-bit-person-detail-con {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.all-bit-person-profile-con {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.all-bit-person-profile-username {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.all-bit-person-profile-country {
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.all-bit-person-profile-pic-con {
+  width: 250px;
+}
+
+.all-bit-person-profile-text {
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3d5033;
+}
+
+.all-bit-person-bit-price-con {
+  width: 200px;
+}
+
+.all-bit-person-profile-img {
+  width: 76px;
+}
+
+.all-bit-person-bit-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: right;
+  color: #404145;
+}
+
+.similar-job-con {
+  margin: 20px 38px 45px 20px;
+}
+
+.similar-job-head-con {
+  margin-bottom: 30px;
+}
+
+.similar-job-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.alllist-con {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.all-items-text-con {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3d5033;
+}
+
+.all-items-dot-img-con {
+  padding-right: 5px;
+  margin-top: 5px;
+}
+
+.successful-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #404145;
+}
+
+.jobpost-content-btn {
+  background-color: #37a000;
+  border-radius: 4px;
+  padding: 9px 49px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  border: 1px solid #37a000;
+}
+
+.jobpost-content-btn:hover {
+  background-color: #ffffff;
+  color: #37a000;
+}
+
+.price-of-bid {
+  height: 50px;
+}
+
+.calender-img-con {
+  position: relative;
+}
+
+.calender-img-icon {
+  position: absolute;
+  right: 10px;
+  top: -45px;
+}
+
+.lable-price-of-bid {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #404145;
+}
+
+.all-items-dot-img-con img {
+  width: 10px;
+}
+
+.des-con-Browse {
+  margin-top: 20px;
+}
+
+.all-bit-person-profile-rating {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 8px;
+  gap: 10px;
+}
+
+.max-char-box {
+  position: relative;
+}
+
+.max-char-text {
+  position: absolute;
+  top: -55px;
+  right: 25px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #797b81;
+}
+
+.browsejobbid-work-offer-details-attachment-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #404145;
+  margin-top: 20px;
+}
+
+.review-attachment-pdf-content {
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  width: 450px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 30px 15px 20px;
+  gap: 10px;
+}
+
+.review-attachment-pdf-content-con {
+  width: 100%;
+}
+
+.review-attachment-pdf-content-name-delete-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-attachment-pdf-delete {
+  cursor: pointer;
+}
+
+.review-attachment-pdf-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #404145;
+  margin: 0px;
+}
+
+.review-attachment-pdf-size {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #828282;
+}
+
+.review-attachment-progress-bar {
+  width: 100%;
+  height: 7px;
+  background-color: #37a000;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.browse-job-attachment-btn-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.browsejob-attachment-upload-load-btn {
+  margin-top: 15px;
+}
+
+.modal-content {
+  width: 634px;
+  height: 457px;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.model-header-content-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__img-con {
+    cursor: pointer;
+    padding: 20px;
+  }
+
+  &__head {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #404145;
+    padding-left: 10px;
+  }
+}
+
+.modal-img-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+
+  &__img {
+    width: 130px;
+  }
+}
+
+.bid-model-content-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #404145;
+  margin-top: 20px;
+}
+
+.bid-modal-btn-con {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

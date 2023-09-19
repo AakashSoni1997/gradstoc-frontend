@@ -1,0 +1,80 @@
+.notifications-main-con {
+  box-shadow: 0px 0px 20px rgb(1 41 112 / 10%);
+  background-color: #fff;
+  border-radius: 6px;
+
+  &__content-con {
+    margin: 30px 20px;
+    display: flex;
+    justify-content: flex-start;
+
+    &__img-con {
+      width: 60px;
+      margin-right: 14px;
+
+      &__img {
+        width: 100%;
+      }
+    }
+
+    &__text-con {
+      width: 85%;
+
+      &__head {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #404145;
+      }
+
+      &__date {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #696b71;
+        margin-top: 6px;
+      }
+
+      &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #696b71;
+        margin-top: 10px;
+      }
+    }
+
+    &__cross-con {
+      &__img {
+        margin: 25px 0px 0px 70px;
+        cursor: pointer;
+      }
+    }
+
+    &__btn-con {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &__btn {
+        margin: 20px;
+        border: 1px solid #37a000;
+        background: #37a000;
+        border-radius: 6px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 12px 26px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.noti-hr {
+  margin: 0px;
+}

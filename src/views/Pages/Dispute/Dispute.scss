@@ -1,0 +1,127 @@
+.serach-box {
+  position: relative;
+}
+
+.dispute-main-con {
+  box-shadow: 0px 0px 20px rgb(1 41 112 / 10%);
+  background-color: #fff;
+  border-radius: 5px;
+
+  &__head-con {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__head {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      color: #404145;
+    }
+
+    &__seach-list-con {
+      display: flex;
+      justify-content: space-between;
+
+      &__list {
+        margin-right: 30px;
+        width: 117px;
+      }
+
+      &__seach {
+        width: 315px;
+      }
+    }
+  }
+
+  &__detail-con {
+    padding: 25px 20px 20px 20px;
+
+    &__head {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      color: #404145;
+    }
+
+    &__table-text {
+      margin-top: 15px;
+    }
+
+    &__table-head {
+      background: #f5f5f5;
+      border-radius: 4px;
+
+      &__content {
+        padding: 15px !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #404145;
+      }
+
+      &__content-text-active {
+        padding: 15px !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #00e392;
+
+        &__a-tag {
+          color: #00e392;
+
+          &:hover {
+            color: #00e392;
+          }
+        }
+      }
+
+      &__content-text {
+        padding: 15px !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #404145;
+
+        &__a-tag {
+          color: #404145;
+
+          &:hover {
+            color: #404145;
+          }
+        }
+      }
+
+      &__content-text-sub {
+        padding: 15px !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #37a000;
+
+        &__a-tag {
+          color: #37a000;
+
+          &:hover {
+            color: #37a000;
+          }
+        }
+
+        &:hover {
+          color: #37a000;
+        }
+      }
+    }
+  }
+}
+
+.dispute-hr-con {
+  margin: 0px;
+}

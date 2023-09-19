@@ -1,0 +1,219 @@
+.expert-head-con {
+  margin: 20px 20px 16px 20px;
+}
+
+.expert-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+  margin: 0px;
+}
+
+.expert-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  margin-top: 1px;
+  color: #828282;
+}
+
+.expert-person-profile-pic-con {
+  margin: 40px 20px 30px 20px;
+}
+
+.expert-person-profile-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.expert-person-profile-pic-upload-con {
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+.expert-person-profile-cam-pic-con {
+  position: relative;
+}
+
+.expert-person-profile-cam-pic {
+  position: absolute;
+  top: -81px;
+  left: 55px;
+}
+
+.expert-person-profile-cam-text {
+  position: absolute;
+  top: -55px;
+  left: 23px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #818181;
+}
+
+.expert-person-about-us-con {
+  margin: 1px 20px 25px 20px;
+}
+
+.expert-person-about-us-lable {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+  margin-bottom: 13px;
+}
+
+.expert-person-about-us-lable-text {
+  font-size: 1.5rem;
+  border-color: #e4e4e4;
+  height: 50px;
+  padding: 10px 20px;
+}
+
+::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #cecece;
+}
+
+.expert-person-about-me-con {
+  margin: 0px 20px;
+}
+
+.expert-person-about-me-lable {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+  margin-bottom: 13px;
+}
+
+.expert-person-about-me-description {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
+
+.expert-person-work-experience-con {
+  margin: 30px 20px;
+}
+
+.expert-person-work-experience-lable {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+  margin-bottom: 13px;
+}
+
+.expert-person-work-experience-description {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
+
+.expert-person-education-con {
+  margin: 0px 20px 30px 20px;
+  display: grid;
+  grid-template-columns: 1.8fr 0.2fr;
+}
+
+.expert-person-education-btn-con {
+  margin-top: 40px;
+}
+
+.expert-person-education-btn {
+  margin-left: 10px;
+  padding: 10px 31px;
+  border: 1px solid #37a000;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  background-color: #37a000;
+}
+
+.expert-person-education-btn:hover {
+  color: #37a000;
+  background-color: #ffffff;
+}
+
+.expert-person-skills-con {
+  margin: 0px 20px 30px 20px;
+}
+
+.expert-person-transcripts-con {
+  margin: 0px 20px 60px 20px;
+}
+
+.expert-person-transcripts-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+  margin-bottom: 13px;
+
+  &__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #969494;
+  }
+}
+
+.expert-person-transcripts-btn {
+  padding: 12px 36px;
+  border: 1px solid #37a000;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  background-color: #37a000;
+}
+
+.expert-person-transcripts-btn:hover {
+  color: #37a000;
+  background-color: #ffffff;
+}
+
+.expert-person-submit-con {
+  margin: 20px;
+}
+
+.expert-person-submit-btn-con {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.expert-person-submit-btn {
+  padding: 9px 35px;
+  border: 1px solid #37a000;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  background-color: #37a000;
+}
+
+.expert-person-submit-btn:hover {
+  color: #37a000;
+  background-color: #ffffff;
+}

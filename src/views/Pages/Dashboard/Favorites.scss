@@ -1,0 +1,22 @@
+.favorites {
+  &__head-con {
+    padding: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #404145;
+  }
+}
+
+.favorites-tab .nav-tabs .nav-link.active {
+  padding-bottom: 13px;
+}
+
+::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #cecece;
+}

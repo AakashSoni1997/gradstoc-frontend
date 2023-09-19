@@ -1,0 +1,84 @@
+.study_resource-list-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid #d6d6d6;
+  padding: 2rem;
+  width: 100%;
+}
+
+.color-bold:hover {
+  font-weight: 700;
+}
+
+.a-tag-color {
+  color: black;
+}
+
+.a-tag-color:hover {
+  color: black;
+}
+
+.study-resouces-btn {
+  background: #37a000;
+  border-radius: 6px;
+  padding: 13px 35px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  border: 1px solid #37a000;
+}
+
+.study-resouces-btn:hover {
+  background: white;
+  color: #37a000;
+  border: 1px solid #37a000;
+}
+
+.drop-down-option-myposting-job {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #696b71;
+  margin-bottom: 6px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.navbar_center {
+  position: relative;
+}
+
+.search_header {
+  font-size: 1.4rem;
+  height: 4rem;
+  padding: 0rem 0rem 0 4rem;
+  color: #828282;
+  font-weight: 500;
+  background: #f9f9f9;
+  border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #ace28f;
+  border-color: 1px #37a000;
+  border: 1px solid white;
+  outline: none !important;
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 0.2rem #ace28f;
+  border-color: 1px #37a000;
+  border: 1px solid white;
+  outline: none !important;
+}
+
+::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #cecece;
+}

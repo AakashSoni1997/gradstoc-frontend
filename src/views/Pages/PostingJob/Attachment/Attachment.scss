@@ -1,0 +1,44 @@
+.attachment-cancel-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 44px;
+  margin-right: 10px;
+  color: #37a000;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.attachment-cancel-btn:hover {
+  background-color: #37a000;
+  color: white;
+}
+
+.attachment-continue-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 44px;
+  color: white;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  background-color: #37a000;
+}
+
+.attachment-continue-btn:hover {
+  background-color: white;
+  color: #37a000;
+}
+
+.current-active {
+  color: #37a000;
+}
+
+.pdf-progress-bar-inner {
+  background-color: #37a000;
+  width: 50%;
+  height: 7px;
+}

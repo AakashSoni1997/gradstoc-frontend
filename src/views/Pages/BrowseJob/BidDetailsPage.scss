@@ -1,0 +1,200 @@
+.bid-detail-page-con {
+  border: 1px solid #e4e4e4;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.bid-detail-page-inner-con {
+  margin: 20px;
+}
+
+.bid-detail-page-head-con {
+  margin-top: 20px;
+}
+
+.bid-detail-page-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.bid-detail-page-expert-skill-tags-con {
+  margin-top: 14px;
+}
+
+.tag {
+  padding: 3px 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  color: #37a000;
+  background: #ffffff !important;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.bid-detail-page-question-con {
+  margin-top: 20px;
+}
+
+.bid-detail-page-question-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.bid-detail-page-question-publish {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #828282;
+  margin-top: 10px;
+}
+
+.bid-detail-page-question-text {
+  margin-top: 21px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3d5033;
+}
+
+.bid-detail-page-question-text2 {
+  margin-top: 21px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3d5033;
+}
+
+.bid-detail-page-question-attachment-con {
+  margin-top: 64px;
+}
+
+.bid-detail-page-question-attachment-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #404145;
+}
+
+.bid-detail-page-question-attachment-link {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.link-tag {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #009984;
+  cursor: pointer;
+}
+
+.bid-detail-page-question-view-job-post {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.bid-detail-page-expert-skill-con {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bid-detail-page-expert-skill-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #404145;
+}
+
+.bid-detail-page-bid-price-con {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bid-detail-page-bid-price-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #404145;
+}
+
+.bid-detail-page-bid-price-date-con {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 200px;
+}
+
+.bid-detail-page-bid-price-details-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #404145;
+}
+
+.bid-detail-page-bid-price-details-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  margin-top: 4px;
+  color: #404145;
+}
+
+.bid-detail-page-bid-delevery-date-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #404145;
+}
+
+.bid-detail-page-bid-delevery-date-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  margin-top: 4px;
+  color: #404145;
+}
+
+.bid-detail-page-btn-con {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bid-detail-page-btn {
+  padding: 9px 29px;
+  background: #37a000;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  border: 1px solid #37a000;
+}
+
+.bid-detail-page-btn:hover {
+  background: #ffffff;
+  color: #37a000;
+}

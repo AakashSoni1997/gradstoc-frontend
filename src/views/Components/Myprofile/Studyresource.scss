@@ -1,0 +1,135 @@
+.study_resource-profile-con {
+  border-left: 1px solid #d1d1d1;
+  border-top: 0.0000001px solid #d1d1d1;
+}
+
+.hr-study-resource {
+  margin: 0px 20px;
+}
+
+.study_resource-profile-inner-con {
+  margin: 16px 20px 15px 20px;
+}
+
+.study_resource-profile-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.a-tag-color {
+  color: black;
+}
+
+.a-tag-color:hover {
+  color: black;
+}
+
+.border-inner-con {
+  border-bottom: 0.1rem solid #d6d6d6;
+}
+
+.study_resource-profile-list-item {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 2rem;
+  width: 100%;
+}
+
+.study_resource-profile_study_book {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.study_resource-profile_book_des {
+  padding: 0rem 1.5rem;
+  width: 85%;
+}
+
+.study_resource-profile_book_des-list-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.study_resource-profile_book_title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.study_resource-profile_book_rating {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.study_resource-profile_book_rate {
+  float: left;
+}
+
+.study_resource-profile_book_rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.study_resource-profile_book_rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #dddddd;
+  color: #37a000;
+}
+
+.study_resource-profile_book_rate:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.study_resource-profile_book_rate > input:checked ~ label {
+  color: #37a000;
+}
+
+.study_resource-profile_book_rate:not(:checked) > label:hover,
+.study_resource-profile_book_rate:not(:checked) > label:hover ~ label {
+  color: #37a000;
+}
+
+.study_resource-profile_book_rate > input:checked + label:hover,
+.study_resource-profile_book_rate > input:checked + label:hover ~ label,
+.study_resource-profile_book_rate > input:checked ~ label:hover,
+.study_resource-profile_book_rate > input:checked ~ label:hover ~ label,
+.study_resource-profile_book_rate > label:hover ~ input:checked ~ label {
+  color: #37a000;
+}
+
+.rate_value {
+  font-weight: 600;
+  color: #3d5033;
+  font-size: 1.4rem;
+}
+
+.study_resource-profile_book_para {
+  font-size: 14px;
+  color: #3d5033;
+}
+
+.study_resource-profile_price_amount {
+  display: block;
+  text-align: right;
+}
+
+.study_resource-profile_price_value {
+  font-size: 18px;
+  font-weight: 600;
+  color: #404145;
+  margin-top: 15px;
+}
+
+.dropdown_li {
+  text-align: right;
+}

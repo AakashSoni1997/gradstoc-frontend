@@ -1,0 +1,127 @@
+.account-select-main-con {
+  background-color: #fff;
+
+  &__outer-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content-con {
+    width: 465px;
+    height: 431px;
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    margin: 75px 0px;
+
+    &__head-con {
+      margin: 40px 40px 0px 40px;
+    }
+
+    &__head-text-con {
+      margin: 45px 40px 20px 40px;
+
+      &__head {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #404145;
+      }
+
+      &__para {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #5b5b5b;
+        margin-top: 10px;
+      }
+    }
+
+    &__hire-an-export-con {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &__hire {
+        width: 385px;
+        height: 85px;
+        background: #ffffff;
+        border: 1px solid #e4e4e4;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
+        border-radius: 6px;
+        display: flex;
+        justify-content: flex-start;
+        cursor: pointer;
+
+        &__img-con {
+          width: 36px;
+          height: 36px;
+
+          &__img {
+            width: 100%;
+            margin: 25px 20px 20px 30px;
+          }
+        }
+
+        &__text {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 21px;
+          color: #404145;
+          margin: 30px 0px 0px 40px;
+        }
+
+        &__arrow-img {
+          margin: 17px 0px 0px 70px;
+        }
+      }
+    }
+
+    &__become-an-export-con {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+
+      &__become {
+        width: 385px;
+        height: 85px;
+        background: #ffffff;
+        border: 1px solid #e4e4e4;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
+        border-radius: 6px;
+        display: flex;
+        justify-content: flex-start;
+        cursor: pointer;
+
+        &__img-con {
+          width: 36px;
+          height: 36px;
+
+          &__img {
+            width: 100%;
+            margin: 23px 20px 20px 30px;
+          }
+        }
+
+        &__text {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 21px;
+          color: #404145;
+          margin: 30px 0px 0px 40px;
+        }
+
+        &__arrow-img {
+          margin: 17px 0px 0px 52px;
+        }
+      }
+    }
+  }
+}

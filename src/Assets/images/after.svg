@@ -1,0 +1,22 @@
+<svg width="445" height="1025" viewBox="0 0 445 1025" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_750_20361)">
+<path d="M478.164 -26.6432C503.618 -13.6151 524.637 6.66827 538.563 31.6421C552.489 56.6159 558.697 85.1585 556.402 113.66C554.106 142.162 543.41 169.343 525.667 191.767C507.923 214.19 483.929 230.848 456.718 239.634C429.508 248.421 400.302 248.941 372.796 241.129C345.289 233.317 320.717 217.524 302.187 195.747C283.656 173.97 271.999 147.187 268.69 118.785C265.381 90.3825 270.568 61.6369 283.596 36.1831L344.626 67.4199C337.776 80.8032 335.049 95.9172 336.789 110.851C338.528 125.784 344.658 139.866 354.401 151.316C364.144 162.766 377.064 171.07 391.526 175.178C405.989 179.285 421.344 179.012 435.651 174.392C449.959 169.772 462.574 161.013 471.904 149.224C481.233 137.434 486.857 123.142 488.064 108.156C489.271 93.1705 486.007 78.1632 478.684 65.0323C471.362 51.9014 460.311 41.2367 446.927 34.3867L478.164 -26.6432Z" fill="#FB4D8B"/>
+</g>
+<path d="M174.416 1129.29C78.0892 1045.64 67.8112 899.745 151.46 803.418C235.109 707.091 381.009 696.813 477.336 780.462C573.663 864.11 583.941 1010.01 500.292 1106.34C416.643 1202.66 270.744 1212.94 174.416 1129.29Z" fill="url(#paint0_radial_750_20361)" fill-opacity="0.08"/>
+<defs>
+<filter id="filter0_d_750_20361" x="227.719" y="-62.6432" width="369.149" height="353.272" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="20"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.309804 0 0 0 0 0.556863 0 0 0 0.28 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_750_20361"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_750_20361" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_750_20361" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(788.351 854.84) rotate(179.832) scale(683.292)">
+<stop stop-color="#0D41FF"/>
+<stop offset="1" stop-color="#0D41FF" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

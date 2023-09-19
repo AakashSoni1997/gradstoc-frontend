@@ -1,0 +1,157 @@
+.hire-an-epxer-profile-main {
+  box-shadow: 0px 0px 20px rgb(1 41 112 / 10%);
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.profile-head-con {
+  margin: 20px;
+}
+
+.profile-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.profile-person-content-con {
+  margin: 20px;
+}
+
+.profile-person-content-con {
+  display: grid;
+  grid-template-columns: 0.2fr 1.8fr;
+  gap: 20px;
+}
+
+.profile-person-content-profile-pic-img {
+  width: 96px;
+}
+
+.profile-person-content-profile-content-con {
+  display: flex;
+  justify-content: space-between;
+  // width: 85%;
+}
+
+.profile-person-content-profile-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.profile-person-content-profile-contury {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.profile-person-content-profile-rating {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.rate_value {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3d5033;
+}
+
+.profile-person-content-profile-other-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 12px;
+}
+
+.profile-person-content-profile-job-complete-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #6c6c6c;
+  margin: 0px;
+}
+
+.profile-person-content-profile-job-complete-head-ans {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #3d5033;
+  margin: 0px;
+}
+
+.profile-person-content-member-since-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #6c6c6c;
+  margin: 0px;
+}
+
+.profile-person-content-member-since-head-ans {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #3d5033;
+  margin: 0px;
+}
+
+.profile-person-content-level-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #6c6c6c;
+  margin: 0px;
+}
+
+.profile-person-content-level-head-ans {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #3d5033;
+  margin: 0px;
+}
+
+.hire-me-btn {
+  margin-left: 10px;
+}
+
+.btn-content-me {
+  padding: 9px 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #37a000;
+  margin-left: 40px;
+}
+
+.btn-content-me:hover {
+  background-color: #37a000;
+  color: white;
+}
+
+.my-profile-tab-menu .green_tab li {
+  padding: 25px 2rem 0px 0rem;
+}
+
+.my-profile-tab-menu .nav-tabs .nav-link.active {
+  padding-bottom: 18px;
+  text-align: center;
+}

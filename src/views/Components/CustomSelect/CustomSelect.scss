@@ -1,0 +1,73 @@
+.selector {
+  width: 350px;
+  height: 50px;
+}
+
+#selectField {
+  width: 100%;
+  height: 100%;
+  padding: 13px 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.placeholder-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #979797;
+  margin: 0px;
+}
+
+.discount-img-text-con {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.discount-img-text-con img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.discount-text-con--head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.discount-text-con--text {
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #5a5a5a;
+}
+
+#list {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.list-options {
+  width: 100%;
+  padding: 15px 15px 15px 25px;
+  list-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.hide {
+  visibility: hidden;
+}

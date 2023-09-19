@@ -1,0 +1,190 @@
+.user-billing-info-header-con {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-billing-info-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.user-billing-info-text {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #676767;
+}
+
+.user-billing-info-btn-con {
+  margin-top: 20px;
+}
+
+.user-billing-info-btn {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #37a000;
+  border: 1px solid #37a000;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.user-billing-info-btn:hover {
+  background-color: #37a000;
+  color: #ffffff;
+}
+
+.user-billing-card-info {
+  position: relative;
+}
+
+.user-billing-card-info input[type="radio"] {
+  display: none;
+}
+
+.user-billing-card-info label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 35px;
+  margin: 0 15px 0 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 11px;
+  border: 2px solid #37a000;
+  background-color: transparent;
+  color: #37a000;
+}
+
+.user-billing-card-info input[type="radio"]:checked + label:after {
+  border-radius: 11px;
+  width: 9.2px;
+  height: 9.5px;
+  position: absolute;
+  top: 38.5px;
+  left: 3.4px;
+  content: " ";
+  display: block;
+  background: green;
+}
+
+.user-billing-card-info-label-con {
+  margin-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.user-billing-card-info-label-img-con {
+  margin-top: 12px;
+}
+
+.user-billing-card-info-label-details {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.user-billing-card-info-label-btn-con {
+  margin-top: 10px;
+}
+
+.user-billing-card-info-label-btn-edit {
+  border: none;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #37a000;
+  padding: 0px;
+  padding-right: 15px;
+  border-right: 1px solid #e3e3e3;
+}
+
+.user-billing-card-info-label-btn-delete {
+  border: none;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ea3c16;
+  margin-left: 15px;
+  padding: 0px;
+}
+
+.add-my-payment-method .modal-content {
+  width: 480px;
+  height: auto;
+  border-radius: 0rem;
+  padding: 0rem;
+}
+
+.add-card-header-con {
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  &__head {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #404145;
+  }
+
+  &__btn-con {
+    &__btn {
+      background-color: #ffffff;
+      border: none;
+    }
+  }
+}
+
+.modal-body {
+  padding: 0px;
+}
+
+.add-card-details-con {
+  padding: 0px 20px 20px 20px;
+}
+
+.modal-footer {
+  padding: 0px;
+}
+
+.add-card-model-footer-con {
+  padding: 10px 20px 30px 20px;
+
+  &__btn-con {
+    &__btn {
+      background: #37a000;
+      border-radius: 6px;
+      border: 1px solid #37a000;
+      padding: 13px 185px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 150%;
+      color: #ffffff;
+
+      &:hover {
+        background: #ffffff;
+        color: #37a000;
+      }
+    }
+  }
+}

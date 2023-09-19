@@ -1,0 +1,385 @@
+.studydetailLeft-con {
+  border: 1px solid #e4e4e4;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+  background: #ffffff;
+}
+
+.person-rate-con {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.person-rate {
+  float: left;
+}
+
+.person-rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.person-rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #dddddd;
+  color: #37a000;
+}
+
+.person-rate:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.person-rate > input:checked ~ label {
+  color: #37a000;
+}
+
+.person-rate:not(:checked) > label:hover,
+.person-rate:not(:checked) > label:hover ~ label {
+  color: #37a000;
+}
+
+.person-rate > input:checked + label:hover,
+.person-rate > input:checked + label:hover ~ label,
+.person-rate > input:checked ~ label:hover,
+.person-rate > input:checked ~ label:hover ~ label,
+.person-rate > label:hover ~ input:checked ~ label {
+  color: #37a000;
+}
+
+.person-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+  margin-bottom: 0px;
+}
+
+.profile-pic-con {
+  margin: 21px;
+}
+
+.person-country {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #404145;
+  margin: 0px;
+}
+
+.person-membership-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #404145;
+  margin: 12px 1px 0px 1px;
+  border-right: 1px solid #c7c7c7;
+  padding-right: 20px;
+}
+
+.person-membership-text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #404145;
+  margin: 12px 1px 0px 20px;
+}
+
+.studydetail-person-con {
+  display: flex;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.personsub-details-one {
+  border-right: 1px solid #c7c7c7;
+  padding-right: 40px;
+}
+
+.personsub-details-two {
+  border-right: 1px solid #c7c7c7;
+  padding-right: 40px;
+}
+
+.personsub-details-three {
+  border-right: 1px solid #c7c7c7;
+  padding-right: 40px;
+}
+
+.personsub-details-four {
+  border-right: 1px solid #c7c7c7;
+  padding-right: 40px;
+}
+
+.studyperson-details {
+  margin: 20px 1px;
+}
+
+.person-membership-record {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.personsub-details-con {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  gap: 50px;
+}
+
+.person-subject-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #404145;
+  margin-bottom: 8px;
+}
+
+.person-school-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.studydetail-ans-con {
+  margin: 20px;
+}
+
+.studydetail-ans-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #666666;
+}
+
+.studydetail-ans-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.studydetail-ans-mytext {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.style-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-preview-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.studydetailright {
+  margin: 20px 1px 11px 20px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.studydetailright-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.studydetailright-bid {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.studydetail-bid-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.studydetail-bid-subcon {
+  display: flex;
+  margin-top: 28px;
+  gap: 10px;
+}
+
+.studydetail-bid-subconone {
+  display: flex;
+  gap: 10px;
+}
+
+.studydetail-bid-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.studydetail-price-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  color: #404145;
+}
+
+.studydetail-bid-subcon-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  color: #404145;
+  margin-top: 10px;
+}
+
+.studydetail-price-img-book-mark-con {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.studydetail-price-img {
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.studydetail-price-img-heart {
+  width: 25px;
+  margin-top: 20px;
+  margin-right: -4px;
+  cursor: pointer;
+}
+
+.studydetailright-addtocart {
+  margin: 30px 20px;
+}
+
+.cart-btn {
+  width: 100%;
+  padding: 13px 1px;
+  background: #37a000;
+  border-radius: 4px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: 1px solid #37a000;
+}
+
+.studydetail-relative-con {
+  margin: 20px 20px 10px 20px;
+}
+
+.studydetail-relative-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.studydetail-relative-data {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 20px;
+}
+
+.studydetail-relative-text {
+  font-size: 14px;
+}
+
+.studydetail-relative-text-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.studydetail-relative-text-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: right;
+  color: #404145;
+}
+
+.studydetailbottom-con {
+  margin: 20px;
+}
+
+.studydetailbottom-haed {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.studydetailbottom-more-con {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.studydetailbottom-more {
+  margin: 20px 10px 46px 10px;
+}
+
+.studydetailbottom-more img {
+  margin-left: 15px;
+}
+
+.studydetailbottom-more-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 10px;
+  color: #404145;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #ace28f;
+  border-color: 1px #37a000;
+  border: 1px solid white;
+  outline: none !important;
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 0.2rem #ace28f;
+  border-color: 1px #37a000;
+  border: 1px solid white;
+  outline: none !important;
+}
+
+::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #cecece;
+}

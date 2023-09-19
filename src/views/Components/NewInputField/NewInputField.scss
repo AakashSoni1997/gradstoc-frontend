@@ -1,0 +1,22 @@
+.error-text {
+  display: none;
+  font-size: 14px;
+  color: #e74c3c;
+  margin-top: 2px;
+
+  svg {
+    margin-right: 2px;
+  }
+}
+
+input:invalid[focused="true"],
+select:invalid[focused="true"],
+textarea:invalid[focused="true"] {
+  border-color: #e74c3c !important;
+}
+
+input:invalid[focused="true"] ~ .error-text,
+select:invalid[focused="true"] ~ .error-text,
+textarea:invalid[focused="true"] ~ .error-text {
+  display: block;
+}

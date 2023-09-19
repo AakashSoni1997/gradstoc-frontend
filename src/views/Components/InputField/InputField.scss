@@ -1,0 +1,60 @@
+.inputText-sec {
+  margin-top: 30px;
+
+  &__label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #404145;
+    margin-bottom: 11px;
+
+    &__spanText {
+      font-weight: normal;
+      color: #bdbdbd;
+      font-size: 13px;
+      font-style: normal;
+      line-height: 150%;
+      margin-left: 10px;
+    }
+  }
+
+  &__inputField-con {
+    &__inputText {
+      font-size: 1.5rem;
+      border-color: #e4e4e4;
+      height: 50px;
+      padding: 10px 20px !important;
+
+      ::placeholder {
+        font-family: "HelveticaNeue" sans-serif;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #cecece;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #ace28f;
+  border-color: 1px #37a000;
+  border: 1px solid white;
+  outline: none !important;
+}

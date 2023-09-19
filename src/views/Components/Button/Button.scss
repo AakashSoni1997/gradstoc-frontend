@@ -1,0 +1,35 @@
+.btn-filled {
+  background: #37a000;
+  border-radius: 4px;
+  padding: 9px 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px solid #37a000;
+}
+
+.btn-filled:hover {
+  background: white;
+  color: #37a000;
+}
+
+.btn-no-filled {
+  background: white;
+  color: #37a000;
+  border-radius: 4px;
+  padding: 9px 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  cursor: pointer;
+  border: 1px solid #37a000;
+}
+
+.btn-no-filled:hover {
+  background: #37a000;
+  color: #ffffff;
+}

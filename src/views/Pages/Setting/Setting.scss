@@ -1,0 +1,24 @@
+.setting-main-con {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgb(1 41 112 / 10%);
+  border-radius: 5px;
+
+  &__inner-con {
+    &__profile-setting-con {
+      padding: 20px;
+    }
+
+    &__head-con {
+      padding: 20px;
+
+      &__head {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+
+        color: #404145;
+      }
+    }
+  }
+}

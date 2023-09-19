@@ -1,0 +1,95 @@
+.user-skill-main-con {
+  &__profile-pic-con {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &__big-img-con {
+      position: relative;
+
+      &__small-img {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+      }
+
+      &__cam-img {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+      }
+    }
+  }
+
+  &__profile-detail-con {
+    margin: 40px auto 0px auto;
+    max-width: 475px;
+
+    &__head {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      color: #404145;
+    }
+
+    &__text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 10px;
+      color: #5b5b5b;
+    }
+  }
+
+  &__profile-detail-form-con {
+    margin: 30px auto 0px auto;
+    max-width: 475px;
+
+    &__input-text-con {
+      &__lable {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #404145;
+      }
+
+      &__user-profile-input-text {
+        margin-top: 10px;
+        height: 50px;
+        background: #f9f9f9;
+        border-radius: 6px;
+        border: none;
+      }
+    }
+  }
+
+  &__profile-detail-btn-con {
+    margin: 30px auto 0px auto;
+    max-width: 475px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+
+    &__next-btn {
+      background: #37a000;
+      border-radius: 6px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      padding: 12px 35px;
+      color: #ffffff;
+      border: 1px solid #37a000;
+    }
+  }
+}
+
+.input-last-name {
+  margin-top: 24px;
+}

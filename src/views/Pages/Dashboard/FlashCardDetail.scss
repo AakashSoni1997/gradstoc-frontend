@@ -1,0 +1,64 @@
+.flowchartdetail-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 25px 10px 30px 20px;
+  gap: 15px;
+}
+
+.flowchartdetail-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+  border-right: 1px solid #d1d1d1;
+}
+
+.flowchartdetail-des {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6a6a6a;
+}
+
+.flowchartdetail-details {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #6a6a6a;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+
+.accordion-button::after {
+  background-image: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.bottom-img-con {
+  position: relative;
+}
+
+.bottom-backgound-img-con {
+  position: absolute;
+  top: -40px;
+  bottom: 0;
+  left: 43.5%;
+  right: 0;
+}
+
+.accordion-outer-con {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}

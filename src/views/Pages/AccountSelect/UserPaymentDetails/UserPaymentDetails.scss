@@ -1,0 +1,29 @@
+.user-payment-align {
+  text-align: center;
+}
+
+.payment-btn-text-color {
+  color: #37a000;
+}
+
+.user-skill-main-con {
+  &__profile-payment-btn-con {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 90px;
+
+    &__btn {
+      padding: 12px 32px;
+      background: #37a000;
+      border-radius: 6px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #ffffff;
+      border: 1px solid #37a000;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.user-skill-main-con {
+  &__category-con {
+    &__select-skill-con {
+      &__skill-head-con {
+        &__head {
+          margin: 20px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: #5b5b5b;
+        }
+
+        &__text-con {
+          background: #ffffff;
+          border: 1px solid #8a8a8a;
+          border-radius: 35px;
+          margin: 20px;
+          width: 155px;
+          padding: 12px 20px;
+          display: flex;
+          justify-content: space-around;
+
+          &__text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #5b5b5b;
+          }
+
+          &__img-con {
+            width: 13px;
+            height: 13px;
+
+            &__img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.my-btn-skill {
+  background: #37a000;
+  border-radius: 6px;
+  color: #ffffff;
+  border: 1px solid #37a000;
+}

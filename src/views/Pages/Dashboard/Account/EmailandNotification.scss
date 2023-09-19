@@ -1,0 +1,76 @@
+.notification-con {
+  margin: 20px 20px 20px 18px;
+
+  &__head-con {
+    margin: 5px 0px 20px 0px;
+
+    &__head {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 150%;
+      color: #404145;
+    }
+  }
+}
+
+.show-notification--label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #404145;
+  margin-bottom: 11px;
+}
+
+.listofschool {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #404145;
+}
+
+.email-send-notification-con {
+  margin-top: 40px;
+
+  &__email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #404145;
+  }
+
+  &__email--send {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #404145;
+    margin-top: 3px;
+  }
+}
+
+.email-unreads {
+  margin-top: 16px;
+}
+
+.timer-select-list {
+  margin-top: 45px;
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 0.2rem #ace28f;
+  border-color: 1px #37a000;
+  border: 1px solid white;
+  outline: none !important;
+}
+
+::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #cecece;
+}

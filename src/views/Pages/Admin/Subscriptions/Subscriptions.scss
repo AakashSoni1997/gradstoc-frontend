@@ -1,0 +1,26 @@
+.subscriptions-con {
+  justify-content: flex-start;
+
+  &__head {
+    width: 40%;
+  }
+
+  &__list-option {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #37a000;
+  }
+}
+
+.subscriptions-con--list .form-select {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #37a000;
+  width: 192px;
+  background-image: url("../../../../Assets/images/admin_sub_down_arrow.png") !important;
+  background-size: 12px 7px !important;
+}

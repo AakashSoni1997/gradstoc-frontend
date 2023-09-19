@@ -1,0 +1,25 @@
+.admin-user-sec {
+  &__table-con {
+    &__email-con {
+      margin: 0px 20px 20px 20px;
+    }
+
+    &__btn-con {
+      margin: 15px 20px 20px 20px;
+      display: flex;
+      justify-content: flex-end;
+
+      &__btn {
+        background: #37a000;
+        border-radius: 4px;
+        border: 1px solid #37a000;
+        padding: 9px 34px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 160%;
+        color: #ffffff;
+      }
+    }
+  }
+}

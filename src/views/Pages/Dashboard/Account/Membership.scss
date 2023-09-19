@@ -1,0 +1,173 @@
+.col-md-3 {
+  padding: 0px 5px;
+}
+
+.user-membership-head-con {
+  margin: 20px 20px 25px 20px;
+}
+
+.user-membership-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.user-membership-card-con {
+  margin: 28px 20px 220px 20px;
+}
+
+.user-membership-cards {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  padding: 0px 20px;
+}
+
+.user-membership-cards-type-plan {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  margin-top: 25px;
+  color: #404145;
+}
+
+.user-membership-cards-cost-per-month {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 17px;
+  text-align: center;
+  color: #404145;
+}
+
+.user-membership-cards-permission-con {
+  margin-top: 29px;
+}
+
+.user-membership-cards-permission-sub-con {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.user-membership-cards-permission-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #676767;
+}
+
+.user-membership-cards-btn-con {
+  margin: 100px 0px 30px 0px;
+}
+
+.user-membership-cards-btn {
+  padding: 10px 65px;
+  background: #ffffff;
+  border: 1px solid #37a000;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #37a000;
+}
+
+.user-membership-cards-btn:hover {
+  background: #37a000;
+  color: #ffffff;
+}
+
+.user-membership-cards-btn-month-con {
+  margin: 25px 0px 30px 0px;
+}
+
+.user-membership-cards-btn-month {
+  padding: 10px 40px;
+  background: #ffffff;
+  border: 1px solid #37a000;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #37a000;
+}
+
+.user-membership-cards-btn-month:hover {
+  background: #37a000;
+  color: #ffffff;
+}
+
+.user-membership-cards-btn-3months-con {
+  margin: 25px 0px 30px 0px;
+}
+
+.user-membership-cards-btn-3months {
+  padding: 10px 10px;
+  background: #37a000;
+  border: 1px solid #37a000;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.user-membership-cards-btn-3months:hover {
+  background: #ffffff;
+  color: #37a000;
+}
+
+.user-membership-cards-btn-12months-con {
+  margin: 25px 0px 30px 0px;
+}
+
+.user-membership-cards-btn-12months {
+  padding: 10px 40px;
+  background: #ffffff;
+  border: 1px solid #37a000;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #37a000;
+}
+
+.user-membership-cards-btn-12months:hover {
+  background: #37a000;
+  color: #ffffff;
+}
+
+.user-membership-btn-con {
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-membership-btn {
+  padding: 9px 29px;
+  border: 1px solid #37a000;
+  border-radius: 6px;
+  background-color: #37a000;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.user-membership-btn:hover {
+  color: #37a000;
+  background-color: #ffffff;
+}

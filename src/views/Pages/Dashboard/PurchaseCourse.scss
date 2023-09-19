@@ -1,0 +1,85 @@
+.purchase-course-section {
+  &__content-con {
+    display: flex;
+    justify-content: flex-start;
+    margin: 25px 20px 15px 20px;
+
+    &__img-con {
+      width: 100px;
+
+      &__img {
+        width: 100%;
+      }
+    }
+
+    &__details-con {
+      margin-left: 15px;
+      display: flex;
+      justify-content: space-between;
+
+      &__head-con {
+        width: 90%;
+
+        &__head {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: #404145;
+        }
+
+        &__text {
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 160%;
+          margin-top: 10px;
+          color: #3d5033;
+        }
+      }
+
+      &__price-con {
+        &__price {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 150%;
+          text-align: right;
+          color: #404145;
+        }
+
+        &__currency {
+          font-style: normal;
+          font-weight: 300;
+          font-size: 12px;
+          line-height: 150%;
+          text-align: right;
+
+          color: #404145;
+        }
+      }
+    }
+  }
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #ace28f;
+  border-color: 1px #37a000;
+  border: 1px solid white;
+  outline: none !important;
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 0.2rem #ace28f;
+  border-color: 1px #37a000;
+  border: 1px solid white;
+  outline: none !important;
+}
+
+::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #cecece;
+}

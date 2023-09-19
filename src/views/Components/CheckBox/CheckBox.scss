@@ -1,0 +1,20 @@
+.check-box-sec {
+  margin-top: 15px;
+
+  &__checkbox {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+
+  &__checkbox-lable {
+    display: flex;
+    font-family: "HelveticaNeue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #777777;
+  }
+}

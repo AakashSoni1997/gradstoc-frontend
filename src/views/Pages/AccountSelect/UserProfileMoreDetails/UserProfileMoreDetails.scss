@@ -1,0 +1,17 @@
+.date-icon-con-outer {
+  position: relative;
+}
+
+.date-icon-con {
+  position: absolute;
+  right: 20px;
+  top: 85px;
+}
+
+.date-input-con::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #d0d0d0;
+}

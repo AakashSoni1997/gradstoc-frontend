@@ -1,0 +1,46 @@
+.Profile-setting-info-con {
+  padding: 10px 20px 20px 20px;
+}
+
+.Profile-setting-info-btn {
+  margin-top: 126px;
+
+  &__con {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px 30px 20px;
+  }
+}
+
+.back-color {
+  background-color: lightgray;
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 0.2rem #ace28f;
+  border-color: 1px #37a000;
+  border: 1px solid white;
+  outline: none !important;
+}
+
+::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #cecece;
+}
+
+.navbar_center {
+  position: relative;
+}
+
+.search_header {
+  font-size: 1.4rem;
+  height: 4rem;
+  padding: 0rem 0rem 0 4rem;
+  color: #828282;
+  font-weight: 500;
+  background: #f9f9f9;
+  border: 1px solid #ced4da;
+}

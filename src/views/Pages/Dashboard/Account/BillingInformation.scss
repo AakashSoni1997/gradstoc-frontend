@@ -1,0 +1,21 @@
+.billing-information-con {
+  margin: 20px;
+
+  &__table-head {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #404145;
+    padding: 10px 20px;
+  }
+
+  &__table-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #404145;
+    padding: 10px 20px;
+  }
+}

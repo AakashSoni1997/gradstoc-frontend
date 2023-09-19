@@ -1,0 +1,202 @@
+.profile-about-con {
+  margin: 30px 15px 1px 20px;
+}
+
+.profile-about-us-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  color: #404145;
+}
+
+.profile-about-us-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #656565;
+  margin: 0px;
+}
+
+.profile-certifiaction-con {
+  margin: 20px 15px 1px 20px;
+}
+
+.profile-certifiaction-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  color: #404145;
+}
+
+.profile-certifiaction-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #656565;
+  margin: 0px;
+}
+
+.profile-earning-job-con {
+  margin: 20px 15px 1px 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center;
+}
+
+.profile-total-earning-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  color: #404145;
+}
+
+.profile-total-earning-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #656565;
+  margin: 0px;
+}
+
+.profile-total-job-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  color: #404145;
+}
+
+.profile-total-job-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #656565;
+  margin: 0px;
+}
+
+.profile-reviews-con {
+  border-left: 1px solid #d1d1d1;
+  border-top: 0.0000001px solid #d1d1d1;
+}
+
+.profile-reviews-inner-con {
+  margin: 16px 20px 15px 20px;
+}
+
+.profile-reviews-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.profile-reviews-details-rating-con {
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.profile-reviews-rate {
+  float: left;
+  margin-top: -5px;
+}
+
+.profile-reviews-rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.profile-reviews-rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #dddddd;
+}
+
+.profile-reviews-rate:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.profile-reviews-rate > input:checked ~ label {
+  color: #37a000;
+}
+
+.profile-reviews-rate:not(:checked) > label:hover,
+.profile-reviews-rate:not(:checked) > label:hover ~ label {
+  color: #37a000;
+}
+
+.profile-reviews-rate > input:checked + label:hover,
+.profile-reviews-rate > input:checked + label:hover ~ label,
+.profile-reviews-rate > input:checked ~ label:hover,
+.profile-reviews-rate > input:checked ~ label:hover ~ label,
+.profile-reviews-rate > label:hover ~ input:checked ~ label {
+  color: #37a000;
+}
+
+.rate_value {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3d5033;
+}
+
+.review-dates {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #656565;
+  margin-left: 10px;
+}
+
+.review-details-con {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  color: #656565;
+  margin-bottom: 15px;
+}
+
+.profile-reviews-details-subcon {
+  margin: 15px 20px;
+}
+
+.profile-reviews-details-head-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-reviews-details-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #37a000;
+}
+
+.profile-reviews-details-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #404145;
+}
+
+// .profile-reviews-details-con {
+//     border-bottom: 1px solid #D1D1D1;
+// }

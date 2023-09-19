@@ -1,0 +1,37 @@
+.user-skill-main-con {
+  &__profile-email-con {
+    margin-top: 60px;
+    padding-bottom: 60px;
+
+    &__head {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      color: #404145;
+    }
+
+    &__re-send {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      margin-top: 40px;
+      cursor: pointer;
+      color: #37a000;
+    }
+
+    &__change {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      margin-top: 20px;
+      cursor: pointer;
+      color: #37a000;
+    }
+  }
+}

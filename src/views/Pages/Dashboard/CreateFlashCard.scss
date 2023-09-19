@@ -1,0 +1,202 @@
+.flowchats-menu {
+  height: 100%;
+}
+
+.flowchats-menu-sub {
+  margin-top: 14px;
+  height: 100%;
+}
+
+.require-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+  padding: 1px 15px;
+}
+
+.title-box {
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  height: 50px;
+  margin: 1px 15px;
+  width: 92%;
+}
+
+.description-box {
+  border-radius: 6px;
+  height: 210px;
+  margin: 1px 15px;
+  width: 92%;
+  background-color: white;
+  border: 1px solid #e4e4e4;
+}
+
+.textarea.form-control {
+  border: 1px solid #e4e4e4;
+}
+
+.flow-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 33px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+
+.accordion-button::after {
+  background-image: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordaion-flow-header {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+}
+
+.accordion-flow-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px 30px 5px 30px;
+}
+
+.accordion-flow-head {
+  border-right: 1px solid #d1d1d1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.accordion-flow-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #6a6a6a;
+  padding-left: 30px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+}
+
+.accordion-flow-main-con {
+  margin-top: 10px;
+}
+
+.bottom-img-con {
+  position: relative;
+  background-color: #37a000;
+}
+
+.bottom-backgound-img-con {
+  position: absolute;
+  top: -40px;
+  bottom: 0;
+  left: 43.5%;
+  right: 0;
+}
+
+.price-flow-con {
+  margin-left: 20px;
+}
+
+.price-flow-head {
+  margin: 20px 1px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #404145;
+}
+
+.price-flow-box {
+  width: 50%;
+  height: 50px;
+  font-weight: bold;
+}
+
+.form-check-label {
+  font-weight: bold;
+}
+
+.price-flow-check {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #404145;
+  margin: 20px 1px;
+}
+
+.flow-bottom-part {
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px;
+}
+
+.flashcard-btn-delete {
+  background: #ffffff;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 46px;
+  color: #37a000;
+}
+
+.flashcard-btn-delete:hover {
+  background: #37a000;
+  color: #ffffff;
+}
+
+.flashcard-btn-create {
+  background-color: #37a000;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 9px 46px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.flashcard-btn-create:hover {
+  background: #ffffff;
+  color: #37a000;
+}
+
+.flashcard-add-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  padding: 9px 53px;
+  background-color: #37a000;
+  border: 1px solid #37a000;
+  border-radius: 4px;
+}
+
+.flashcard-add-btn:hover {
+  background: #ffffff;
+  color: #37a000;
+}

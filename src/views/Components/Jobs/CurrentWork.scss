@@ -1,0 +1,115 @@
+.my-currentwork-con {
+  display: grid;
+  grid-template-columns: 0.2fr 1.8fr;
+  justify-content: center;
+  align-items: start;
+}
+
+.currentwork-cover {
+  margin-top: 25px;
+}
+
+.currentwork_book_rating {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.currentwork-rate {
+  float: left;
+}
+
+.currentwork-rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.currentwork-rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #dddddd;
+}
+
+.currentwork-rate:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.currentwork-rate > input:checked ~ label {
+  color: #37a000;
+}
+
+.currentwork-rate:not(:checked) > label:hover,
+.currentwork-rate:not(:checked) > label:hover ~ label {
+  color: #37a000;
+}
+
+.currentwork-rate > input:checked + label:hover,
+.currentwork-rate > input:checked + label:hover ~ label,
+.currentwork-rate > input:checked ~ label:hover,
+.currentwork-rate > input:checked ~ label:hover ~ label,
+.currentwork-rate > label:hover ~ input:checked ~ label {
+  color: #37a000;
+}
+
+.current-head-que {
+  margin-bottom: 4px;
+}
+
+.download-watch-con {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.watch-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+.download-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watchInNumber {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #404145;
+  margin-left: 10px;
+}
+
+.downloadInNumber {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #404145;
+  margin-left: 10px;
+}
+
+.my-custom-post {
+  margin: 20px 5px 1px -10px;
+}
+
+.mycurrent-job-status {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  color: #37a000;
+}
+
+.mycurrent-job-status-con {
+  margin-top: 90px;
+}

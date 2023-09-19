@@ -1,0 +1,13 @@
+.table-checkbox-con {
+  &__btn-con {
+    &__delete {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    &__edit {
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+}

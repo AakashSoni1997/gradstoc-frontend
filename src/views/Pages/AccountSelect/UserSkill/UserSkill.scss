@@ -1,0 +1,242 @@
+.user-skill-main-con-inner {
+  margin: auto;
+  max-width: 1024px;
+}
+
+.user-skill-main-con {
+  background-color: #ffffff;
+
+  &__text-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 33px;
+      text-align: center;
+      color: #404145;
+      margin-top: 40px;
+    }
+  }
+
+  &__progress-bar-con {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px auto 0px auto;
+
+    &__pro-bar {
+      width: 124.12px;
+      height: 4px;
+      background: #f1f1f1;
+      border-radius: 15px;
+      margin-right: 4px;
+    }
+  }
+
+  &__head-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    &__text-con {
+      &__head {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #404145;
+      }
+
+      &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 10px;
+        color: #5b5b5b;
+      }
+    }
+
+    &__search-con {
+      position: relative;
+    }
+  }
+
+  &__category-con {
+    margin-top: 40px;
+
+    &__select-category-con {
+      background: #ffffff;
+      border: 1px solid #e4e4e4;
+      border-radius: 6px;
+      height: 695px;
+
+      &__head {
+        padding: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #404145;
+      }
+
+      &__head--con {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__head {
+          padding: 20px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 21px;
+          color: #404145;
+        }
+
+        &__arrow {
+          margin-right: 22px;
+        }
+      }
+    }
+
+    &__no-select-category-con {
+      background: #ffffff;
+      border: 1px solid #e4e4e4;
+      border-radius: 6px;
+      height: 695px;
+
+      &__head {
+        padding: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #404145;
+      }
+    }
+
+    &__select-skill-con {
+      background: #ffffff;
+      border: 1px solid #e4e4e4;
+      border-radius: 6px;
+      height: 695px;
+
+      &__head {
+        padding: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #404145;
+      }
+    }
+  }
+
+  &__btn-con {
+    margin-top: 42px;
+    padding-bottom: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__back-btn {
+      padding: 12px 35px;
+      background: #ffffff;
+      border: 1px solid #404145;
+      border-radius: 6px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #404145;
+    }
+
+    &__next-btn {
+      padding: 12px 35px;
+      background: #f3f3f3;
+      border-radius: 6px;
+      border: 1px solid #ffffff;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #404145;
+    }
+  }
+}
+
+.pro-bar-active {
+  background: #37a000;
+}
+
+.user-skill-search_header {
+  font-size: 1.4rem;
+  height: 4rem;
+  padding: 0rem 0rem 0 4rem;
+  color: #828282;
+  font-weight: 500;
+}
+
+.user-skill-hr {
+  margin: 0px;
+}
+
+
+/* Custom styles for the nested tabs */
+
+/* Style the outer tab list */
+.nav-tabs {
+  border-bottom: none;
+}
+
+/* Style the outer tab item */
+.nav-tabs .nav-item {
+  margin-bottom: -1px;
+  border: none;
+}
+
+/* Style the outer active tab item */
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 2px solid #007bff;
+  background-color: #fff;
+  color: #007bff;
+}
+
+/* Style the nested tab list */
+.tab-content > .tab-pane {
+  display: none;
+}
+
+/* Style the active nested tab item */
+.tab-content > .active {
+  display: block;
+}
+
+/* Style the nested tab item */
+.nav-tabs .nav-tabs {
+  border-bottom: none;
+}
+
+/* Style the nested tab item */
+.nav-tabs .nav-tabs .nav-item {
+  margin-bottom: -1px;
+  border: none;
+}
+
+/* Style the nested active tab item */
+.nav-tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 2px solid #007bff;
+  background-color: #fff;
+  color: #007bff;
+}
